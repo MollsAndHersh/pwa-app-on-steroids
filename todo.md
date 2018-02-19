@@ -46,28 +46,28 @@
 
 ## Focus - offline
 
-## ReX
+## ReX
 
 - Twitter: https://developers.google.com/web/showcase/2017/twitter
 - Tinder: https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
 - Pinterest: https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
 
-## Tooling
+## Tooling
 
 - workbox
 - lighthouse
 
-## End
+## End
 
 * PWA is just a marketting word.
 * Ohhhh I'm a Android/iOS developper... I'm gonna loose my job? NO!
 
 
 
+## Resources:
 
-Resources:
-https://cloudfour.com/thinks/progressive-web-apps-simply-make-sense/
-https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
-https://medium.com/dev-channel/why-progressive-web-apps-vs-native-is-the-wrong-question-to-ask-fb8555addcbb
-https://jakearchibald.github.io/isserviceworkerready/
-https://whatwebcando.today/
+* https://cloudfour.com/thinks/progressive-web-apps-simply-make-sense/
+* https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
+* https://medium.com/dev-channel/why-progressive-web-apps-vs-native-is-the-wrong-question-to-ask-fb8555addcbb
+* https://jakearchibald.github.io/isserviceworkerready/
+* https://whatwebcando.today/

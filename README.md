@@ -1,4 +1,4 @@
-# Progressive Web Apps: Your web app on steroids
+# Progressive Web Apps: Your web app on steroids
 
 Does it make sense today to develop the same mobile application as many times as there are devices?
 
@@ -11,7 +11,7 @@ The debate between web and native is not ready to stop!
 
 ## Talks
 
-* [Voxxed Days, Feb 2019, Vienna, Austria](https://voxxeddaysvienna2018.sched.com/)
+* [Voxxed Days, Feb 2018, Vienna, Austria](https://voxxeddaysvienna2018.sched.com/)
 
 ## Slides installation
 
