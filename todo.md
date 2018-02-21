@@ -19,21 +19,26 @@
 * Linkable - Easily shared via a URL and do not require complex installation.
 * Responsive - Fit any form factor: desktop, mobile, tablet, or forms yet to emerge.
   * TODO: add water picture: ![responsive is like water](https://whattheux.files.wordpress.com/2015/10/l-water.png)
-* App-like - Feel like an app to the user with app-style interactions and navigation.
-  * app shell https://developers.google.com/web/fundamentals/architecture/images/appshell.png
-  * "Please stop spamming message :("
-* Progressive - Work for every user, regardless of browser choice because they’re built with progressive enhancement as a core tenet.
-
 * Safe - Served via HTTPS to prevent snooping and ensure content hasn’t been tampered with.
   * Also: is your mobile app is served over HTTPS?? can you ensure it?
   * let's encrypt ==> 0$ the https certificate!
+* App-like - Feel like an app to the user with app-style interactions and navigation.
+  * app shell https://developers.google.com/web/fundamentals/architecture/images/appshell.png
+* Progressive - Work for every user, regardless of browser choice because they’re built with progressive enhancement as a core tenet.
+  * not every browser got services workers
+  * https://whatwebcando.today/
+  * no polyfill (makes sense)
 
 * Fresh - Always up-to-date thanks to the service worker update process.
-  * [](./img/update-app.jpg) ... I already updated this app 4 days ago!!! ...or the installation screen microsoft
+  * ![](./img/update-app.jpg) ... I already updated this app 4 days ago!!! ...or the installation screen microsoft
   * browser install in background
+  * example with my xbox updates :'(
 * Discoverable - Are identifiable as “applications” thanks to W3C manifests[6] and service worker registration scope allowing search engines to find them.
+  * describe spec: name, icons, start_url
+  * display => ["display": "standalone" === Hide URL](https://developers.google.com/web/fundamentals/web-app-manifest/#set_the_launch_style)
+  * splash screen
 * Re-engageable - Make re-engagement easy through features like push notifications.
-
+  * "Please stop spamming message :("
 
 * Installable - Allow users to “keep” apps they find most useful on their home screen without the hassle of an app store.
   * can also be on the Windows Store
@@ -68,6 +73,7 @@
 
 * https://cloudfour.com/thinks/progressive-web-apps-simply-make-sense/
 * https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
+* https://developers.google.com/web/ilt/pwa/why-build-pwa
 * https://medium.com/dev-channel/why-progressive-web-apps-vs-native-is-the-wrong-question-to-ask-fb8555addcbb
 * https://jakearchibald.github.io/isserviceworkerready/
 * https://whatwebcando.today/
