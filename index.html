@@ -22,7 +22,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 </head>
 <body>
 <div class="reveal">
-<div class="slides">
+<div class="slides container">
 <section>
   <section>
     <h2>Progressive Web Apps</h2>
@@ -34,7 +34,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
   </section>
   <section>
     <h2>Slides, links, etc.</h2>
-    <h2>maxpou.fr/talks/</h2>
+    <h2><a href="http://www.maxpou.fr/talks/">maxpou.fr/talks/</a></h2>
   </section>
 </section>
 <section>
@@ -43,25 +43,25 @@ document.getElementsByTagName('head')[0].appendChild(link);
   </section>
   <section>
     <div class="row">
-      <div class="col-sm">
-        <b class="red">50%</b>
+      <div class="col-md-4">
+        <span class="number red-light">50%</span>
       </div>
-      <div class="col-sm">
-        <b class="red">80%</b>
+      <div class="col-md-4">
+        <span class="number red-light">80%</span>
       </div>
-      <div class="col-sm">
-        <b class="red">94%</b>
+      <div class="col-md-4">
+        <span class="number red-light">94%</span>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm">
-        of all U.S. smartphone users download zero apps per month
+      <div class="col-md-4">
+        <span class="number-legend">of all U.S. smartphone users download zero apps per month</span>
       </div>
-      <div class="col-sm">
-        of time spent is in users' top 3 apps
+      <div class="col-md-4">
+        <span class="number-legend">of time spent is in users' top 3 apps</span>
       </div>
-      <div class="col-sm">
-          of revenue in the App Store comes from just <b>1%</b> of all publishers
+      <div class="col-md-4">
+        <span class="number-legend">of revenue in the App Store comes from just <b>1%</b> of all publishers</span>
       </div>
     </div>
   </section>
@@ -70,12 +70,17 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <img src="./img/step-loose-20-users.png" alt="">
   </section>
   <section>
-    <h2>Do I really need an app for that?</h2>
-    <img src="./img/problem-native-app.png" alt="" style="width: 45%">
-  </section>
-  <section>
     <h2>Retention</h2>
     * [More than 75% of App Downloads Open an App Once And Never Come Back](http://fortune.com/2016/05/19/app-economy/)
+    <p class="source"><a href="https://www.comscore.com/Insights/Presentations-and-Whitepapers/2017/The-2017-US-Mobile-App-Report?cs_edgescape_cc=US">Source: ComScore 2017 U.S. Mobile App Report</a></p>
+    <aside class="notes">https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/</aside>
+  </section>
+  <section>
+    <h2>Do I really need an app for that?</h2>
+    <img src="./img/problem-native-app.png" alt="" style="width: 40%">
+  </section>
+  <section>
+    https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/comscore-mobile-web.png
   </section>
   <!-- 
   <section>
@@ -95,7 +100,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
       <circle class="circle-chart__circle" stroke="#d5695b" stroke-width="2" stroke-dasharray="13,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
       <g class="circle-chart__info">
-        <text class="circle-chart__percent" x="16.91549431" y="18.5" alignment-baseline="central" text-anchor="middle" font-size="8" style="fill: #fff;">13%</text>
+        <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8" style="fill: #fff;">13%</text>
         <text class="circle-chart__subline" x="16.91549431" y="23.5" alignment-baseline="central" text-anchor="middle" font-size="2" style="fill: #fff;">Mobile web</text>
       </g>
     </svg>
@@ -103,27 +108,26 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
       <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#d5695b" stroke-width="2" stroke-dasharray="87,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
       <g class="circle-chart__info">
-        <text class="circle-chart__percent" x="16.91549431" y="18.5" alignment-baseline="central" text-anchor="middle" font-size="8" style="fill: #fff;">87%</text>
+        <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8" style="fill: #fff;">87%</text>
         <text class="circle-chart__subline" x="16.91549431" y="23.5" alignment-baseline="central" text-anchor="middle" font-size="2" style="fill: #fff;">Apps</text>
       </g>
     </svg>
-    <aside class="notes">comScore Mobile Metrix June 2015</aside>
-  </section>
-  <section>
-    https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/comscore-mobile-web.png
+    <p class="source">Source: comScore Mobile Metrix June 2015</p>
   </section>
   <section>
     <h2>Capability vs Reachability</h2>
+    <img src="./img/capability-reachability-1.png" alt="Capability vs Reachability" style="width: 60%;">
     <aside class="notes">According to Google: mobiles visit 100 websites a month. Thanks to URL</aside>
   </section>
   <section>
-    <h2>How to mix them together?</h2>
+    <h2>Capability vs Reachability</h2>
+    <img src="./img/capability-reachability-2.png" alt="Capability vs Reachability" style="width: 60%;">
   </section>
 </section>
 <section>
   <section>
     <h2>Introducing Progressive Web Apps</h2>
-    <img src="./img/hamster-preach.jpg" alt="Introducing PWA" style="width: 80%;">
+    <img src="./img/hamster-preach.jpg" alt="Introducing PWA" style="width: 60%;">
   </section>
   <section>
     <h2>#1 Linkable</h2>
@@ -134,7 +138,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <img src="./img/responsive.png" class="fragment" alt="content is like water">
   </section>
   <section>
-    <h2>#3 Safe</h2>
+    <h2>#3 Safe 🔒</h2>
     <h3 class="fragment"><a href="https://letsencrypt.org/">Let's Encrypt</a></h3>
     <img src="./img/letsencrypt-sponsors.png" class="fragment" alt="letsencrypt sponsors">
   </section>
@@ -150,8 +154,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
   </section>
   <section>
     <h2>Not every browsers are the same</h2>
-    <img src="./img/whatwebcandotoday.png" alt="what web can do today">
-    <p><a href="https://whatwebcando.today/">http://whatwebcando.today (Firefox 58)</a></p>
+    <img src="./img/whatwebcandotoday.png" alt="what web can do today" style="width: 80%">
+    <p class="source"><a href="https://whatwebcando.today/">http://whatwebcando.today (Firefox 58)</a></p>
   </section>
   <section>
     <h2>#6 Fresh</h2>
@@ -160,10 +164,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
   <section>
     <h2>Avoid this:</h2>
     <img src="./img/update-app.jpg" alt="">
-    <aside class="notes">
-      * browser install in background
-      * example with my xbox updates :'(
-    </aside>
+  </section>
+  <section data-background="./img/xbox-update.png">
   </section>
   <section>
     <h2>#7 Discoverable</h2>
@@ -193,19 +195,59 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <h2>#8 Re-engageable</h2>
   </section>
   <section>
+    push notification
+  </section>
+  <section>
     <h2>#9 Installable</h2>
+    <img src="./img/install.png" alt="install PWA" class="fragment">
   </section>
   <section>
     <h2>#10 Connectivity independent</h2>
+    <blockquote>
+      <i>"The best request is no request"</i>
+    </blockquote>
+    <img src="./img/t-rex-offline.png" alt="chrome offline T-rex">
   </section>
   <section>
     <h2>Offline strategies</h2>
+    <h3>Cache first</h3>
+    <img src="./img/strategy-cache-falling-back-to-network.png" alt="cache falling back to network">
+  </section>
+  <section>
+    <h2>Offline strategies</h2>
+    <h3>Network first</h3>
+    <img src="./img/strategy-network-falling-back-to-cache.png" alt="network falling back to cache">
+  </section>
+  <section>
+    <h2>Offline strategies</h2>
+    <h3>cache then network</h3>
+    <img src="./img/strategy-cache-then-network.png" alt="cache then network" style="width: 80%;">
+  </section>
+  <section>
+    <h2>Offline strategies</h2>
+    <h3>stale while revalidate</h3>
+    <img src="./img/strategy-stale-while-revalidate.png" alt="stale while revalidate">
   </section>
   <section>
     <h2>Workbox</h2>
+    <pre class="fragment"><code data-trim>
+workbox.routing.registerRoute(
+  /\.(?:png|gif|jpg|jpeg|svg)$/,
+  workbox.strategies.cacheFirst({
+    cacheName: 'images',
+    plugins: [
+      new workbox.expiration.Plugin({
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+      })
+    ]
+  })
+)
+    </code></pre>
   </section>
   <section>
-    <h2 class="fragment strike">#11 Single Page Application</h2>
+    <h2 class="fragment strike" data-fragment-index="1">#11 Single Page Application</h2>
+    <p class="fragment" data-fragment-index="1">😊</p>
   </section>
 </section>
 <section>
@@ -236,10 +278,10 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <li>2.05 Seconds = Team Red Bull Racing tire change</li>
       <li>5 seconds = average page load time</li>
     </ul>
-    <p class="space-top">⚠️ <b>40%</b> of users bounce from sites that take longer than 3 seconds</p>
+    <p class="space-top fragment">⚠️ <b>40%</b> of users bounce from sites that take longer than 3 seconds</p>
   </section>
   <section>
-    <h2>😞 Cons: what web can't do now</h2>
+    <h2>😞 Cons: what web can't do (now)</h2>
     <ul>
       <li>calendar</li>
       <li>sms</li>
@@ -269,12 +311,86 @@ document.getElementsByTagName('head')[0].appendChild(link);
     https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
   </section>
   <section>
-    <h2>Twitter</h2>
-    https://developers.google.com/web/showcase/2017/twitter
+    <div class="row">
+      <div class="col-md">
+        <img src="./img/twitter-lite-pwa.png" alt="twitter lite pwa" style="width: 70%;">
+      </div>
+      <div class="col-md col-center">
+        <h2>Twitter (Lite)</h2>
+        <ul class="unstyled">
+          <li><span class="number red-light">+65%</span> pages per session</li>
+          <li><span class="number red-light">+75%</span> Tweets sent</li>
+          <li><span class="number red-light">+20%</span> bounce rate</li>
+        </ul>️
+      </div>
+    </div>
+    <p class="source"><a href="https://developers.google.com/web/showcase/2017/twitter">Source: developers.google.com</a></p>
   </section>
   <section>
     <h2>Pinterest</h2>
-    https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
+    <div class="row">
+      <h4>Old mobile web vs. new mobile web</h4>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <span class="number red-light">+40%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+44%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+50%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+60%</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <span class="number-legend">Time spent > 5 minutes</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">User-generated Ad $</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">Ad Click Throughs</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">Core engagements</span>
+      </div>
+    </div>
+    <div class="row spaced">
+      <h4>Web vs. native</h4>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <span class="number red-light">+5%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+2%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+0%</span>
+      </div>
+      <div class="col-md">
+        <span class="number red-light">+2-3%</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <span class="number-legend">Time spent > 5 minutes</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">User-generated Ad $</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">Ad Click Throughs</span>
+      </div>
+      <div class="col-md">
+        <span class="number-legend">Core engagements</span>
+      </div>
+    </div>
+    <p class="source"><a href="https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154">Source: A Pinterest PWA Performance Case Study by @addyosmani</a></p>
   </section>
 </section>
 <section>
@@ -296,6 +412,10 @@ document.getElementsByTagName('head')[0].appendChild(link);
     </ul>
     <p>All this domain will register a different Service Worker</p>
     <p><a href="https://www.chromestatus.com/feature/5684130679357440">👩‍🔬 <i>Foreign Fetch Status (Chrome Platform)</i></a></p>
+  </section>
+  <section>
+    <h2>Services workers</h2>
+    <img src="./img/caniuse-service-workers.png" alt="can I use service workers">
   </section>
 </section>
 </div>
@@ -338,12 +458,12 @@ Reveal.initialize({
   Reveal.addEventListener('slidechanged', function(event) {
     if (event.currentSlide.classList.contains('anim-chart')) {
       Array.from(event.currentSlide.getElementsByTagName('svg')).forEach(svgNode => {
-        svgNode.classList.toggle('anim-svg')
+        svgNode.classList.add('anim-svg')
       });
     }
     if (event.previousSlide.classList.contains('anim-chart')) {
       Array.from(event.previousSlide.getElementsByTagName('svg')).forEach(svgNode => {
-        svgNode.classList.toggle('anim-svg')
+        svgNode.classList.remove('anim-svg')
       });
     }
 } );

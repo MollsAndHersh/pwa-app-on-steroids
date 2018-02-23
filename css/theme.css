@@ -78,15 +78,41 @@ p.me-link {
   margin-top: 120px;
 }
 
+.reveal .col-center {
+  height: 50%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+p.source {
+  font-size: 0.5em;
+  position: fixed;  
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
 .red {
   color: #C00000;
 }
+
 .red-light {
-  color: #d5695b;
+  color: #aa6259;
 }
 
 .row.spaced {
-  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+.number {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+}
+
+.number-legend {
+  font-size: 0.5em !important;
 }
 
 .reveal pre {
@@ -101,6 +127,7 @@ p.me-link {
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
 }
+
 .reveal pre code {
   padding: 10px;
   overflow: auto;
