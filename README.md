@@ -9,11 +9,11 @@ As a native app, PWA brings other benefits such as sending push notifications, d
 During this session, we will see what are services worker and the 10 Commandments of a Progressive Web App.
 The debate between web and native is not ready to stop!
 
-## Talks
+## :calendar: Events
 
 * [Voxxed Days, Feb 2018, Vienna, Austria](https://voxxeddaysvienna2018.sched.com/)
 
-## Slides installation
+## Slides installation
 
 ```bash
 # Don't forget the --recursive option to pull reveal.js
