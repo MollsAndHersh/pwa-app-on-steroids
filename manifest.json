@@ -3,9 +3,8 @@
   "short_name": "PWA Talk",
   "theme_color": "#5B9BD5",
   "background_color": "#5B9BD5",
-  "display": "standalone",
-  "scope": "/pwa-app-on-steroids/",
-  "start_url": "/index.html?launcher=homescreen",
+  "display": "fullscreen",
+  "start_url": "/pwa-app-on-steroids/index.html?launcher=homescreen",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
@@ -47,6 +46,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
