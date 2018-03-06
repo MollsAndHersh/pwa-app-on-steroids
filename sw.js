@@ -107,35 +107,39 @@ self.__precacheManifest = [
   },
   {
     "url": "img/icons/icon-128x128.png",
-    "revision": "69d594b7a4d49ecda42d1fc538b74b73"
+    "revision": "0e329504599108ffe8cfb285a8275fab"
   },
   {
     "url": "img/icons/icon-144x144.png",
-    "revision": "d02dedfd0455eda46161c8ed04c3f080"
+    "revision": "5fa9109dfcd32bfc3b5afe4ae419ba89"
   },
   {
     "url": "img/icons/icon-152x152.png",
-    "revision": "c72431b678a9e94e11c4f695b2888b6d"
+    "revision": "80c12504d19217e4603ff305b61dcb55"
   },
   {
     "url": "img/icons/icon-192x192.png",
-    "revision": "c1c16fe0254eec4a955a77a01f1e74df"
+    "revision": "5b49292ca25edb2500c3a5118ae1f22d"
   },
   {
     "url": "img/icons/icon-384x384.png",
-    "revision": "3359e7441aec29bfd794563cddece7e4"
+    "revision": "efdaebd18eb6e0bf21e37c939af3c1f5"
   },
   {
     "url": "img/icons/icon-512x512.png",
-    "revision": "02e4ab022a95e0d47859b1730fedaa30"
+    "revision": "b889b73e40946b28c925d24173aa0720"
   },
   {
     "url": "img/icons/icon-72x72.png",
-    "revision": "d12c4fafe1cc39615a2ce29d12e7632d"
+    "revision": "7b24cca0b2d7511ae40d15abb8865af2"
   },
   {
     "url": "img/icons/icon-96x96.png",
-    "revision": "542be639edfcc87767243e5f1710e220"
+    "revision": "6a90e80d2f5e4dfeaaa1967138c34209"
+  },
+  {
+    "url": "img/icons/logo-pwa-square.png",
+    "revision": "d7df455162fc1779a01e7ae04fef08f8"
   },
   {
     "url": "img/impact-calculator.png",
@@ -255,7 +259,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8cfbefddfbf01363e406cf1aa5e19557"
+    "revision": "4f7432e027d87d0dd4bca32b9f43a204"
   },
   {
     "url": "js/payment.js",
@@ -263,7 +267,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "e9e95d95c618212ab332a85646bae9e8"
+    "revision": "6951131214065fe96496f96591315f9f"
   },
   {
     "url": "README.md",
