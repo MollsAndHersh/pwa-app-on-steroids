@@ -4,6 +4,7 @@
   "theme_color": "#5B9BD5",
   "background_color": "#5B9BD5",
   "display": "fullscreen",
+  "orientation": "landscape",
   "start_url": "/pwa-app-on-steroids/index.html?launcher=homescreen",
   "icons": [
     {

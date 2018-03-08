@@ -181,10 +181,14 @@ document.getElementsByTagName('head')[0].appendChild(link);
   <section>
     <h2>#7 Installable</h2>
     <div class="row" style="display: block;">
-      <img src="./img/install-1.png" alt="install PWA" class="fragment separate" style="width: 30%">
-      <img src="./img/install-2.png" alt="install PWA" class="fragment separate" style="width: 30%">
-      <img src="./img/install-3.png" alt="install PWA" class="fragment separate" style="width: 30%">
+      <img src="./img/install-1.png" alt="install PWA" class="fragment separate" style="width: 23%">
+      <img src="./img/install-2.png" alt="install PWA" class="fragment separate" style="width: 23%">
+      <img src="./img/install-3.png" alt="install PWA" class="fragment separate" style="width: 23%">
+      <img src="./img/phone-app-list.jpg" alt="install PWA" class="fragment separate" style="width: 23%">
     </div>
+  </section>
+  <section>
+
   </section>
   <section>
     <h2>#8 Discoverable</h2>
@@ -233,7 +237,11 @@ document.getElementsByTagName('head')[0].appendChild(link);
   </section>
   <section>
     <h2>Service workers</h2>
-    <img class="fragment" src="./img/service-worker.png" alt="what is a service worker">
+    <img src="./img/service-worker-0.png" alt="what is a service worker">
+  </section>
+  <section>
+    <h2>Service workers</h2>
+    <img src="./img/service-worker.png" alt="what is a service worker">
   </section>
   <section>
     <h2>Offline strategies</h2>
@@ -495,7 +503,8 @@ workbox.routing.registerRoute(
 </div>
 <script src="reveal.js/lib/js/head.min.js"></script>
 <script src="reveal.js/js/reveal.js"></script>
-<script src="js/payment.js"></script>
+<script src="js/payment.js" async></script>
+<script src="js/notification.js" async></script>
 <script>
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration
@@ -529,41 +538,6 @@ Reveal.initialize({
   ga('send', 'pageview');
 </script>
 <script>
-function notifyMe () {
-  if (!("Notification" in window)) {
-    alert("This browser doesn't support notifications yet");
-    return false
-  } 
-  if (Notification.permission === "granted") {
-    new Notification("PWA", {body: "Great! Now let's conquer the world"})
-  } else if (Notification.permission !== 'denied') {
-    Notification.requestPermission((permission) => {
-      if(!('permission' in Notification)) {
-        Notification.permission = permission;
-      }
-      if (permission === "granted") {
-        new Notification("PWA", {body: "Great! Now let's conquer the world"})
-      }
-    })
-  }
-  return false
-}
-
-
-// SVG
-Reveal.addEventListener('slidechanged', function(event) {
-  if (event.currentSlide.classList.contains('anim-chart')) {
-    Array.from(event.currentSlide.getElementsByTagName('svg')).forEach(svgNode => {
-      svgNode.classList.add('anim-svg')
-    })
-  }
-  if (event.previousSlide.classList.contains('anim-chart')) {
-    Array.from(event.previousSlide.getElementsByTagName('svg')).forEach(svgNode => {
-      svgNode.classList.remove('anim-svg')
-    })
-  }
-})
-
 // register sw
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {

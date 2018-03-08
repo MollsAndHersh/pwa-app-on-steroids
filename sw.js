@@ -35,7 +35,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "042860b5b4cdb697f49020e3762de379"
+    "revision": "399312dc06a74abd7d30ca6a64556ca1"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -178,6 +178,10 @@ self.__precacheManifest = [
     "revision": "020909d56f4dbc9d107757ce3253e49a"
   },
   {
+    "url": "img/phone-app-list.jpg",
+    "revision": "780b87096ab66da3f11dba93443effc5"
+  },
+  {
     "url": "img/problem-native-app.png",
     "revision": "b1e3017a1bbf69816926bec6e6c295d1"
   },
@@ -198,12 +202,16 @@ self.__precacheManifest = [
     "revision": "da63d7a33371db3cefa13084c35478a7"
   },
   {
+    "url": "img/service-worker-0.png",
+    "revision": "9e19440b65b68ffa6e108c95bebb77d4"
+  },
+  {
     "url": "img/service-worker.png",
     "revision": "c81f5a6294903c34282def6744ab145e"
   },
   {
     "url": "img/shema.pptx",
-    "revision": "0226c9895698b8edd767cb6abc5d3e63"
+    "revision": "1a3a45e21f77489bbaf4f40bb3fd009e"
   },
   {
     "url": "img/step-loose-20-users.png",
@@ -259,7 +267,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4f7432e027d87d0dd4bca32b9f43a204"
+    "revision": "14d306b593f5c3cae2602f2b1e772163"
+  },
+  {
+    "url": "js/notification.js",
+    "revision": "569857faada97f138e834f8bf36d4d0e"
   },
   {
     "url": "js/payment.js",
@@ -267,7 +279,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "6951131214065fe96496f96591315f9f"
+    "revision": "325fe876b88afd6466159139a027621d"
   },
   {
     "url": "README.md",
@@ -676,10 +688,6 @@ self.__precacheManifest = [
   {
     "url": "reveal.js/test/test.js",
     "revision": "f311c8540bb1687f2c293d76be9d2538"
-  },
-  {
-    "url": "todo.md",
-    "revision": "c5799d7c8cf62ec12829eb80e2a66cc1"
   },
   {
     "url": "workbox-config.js",
