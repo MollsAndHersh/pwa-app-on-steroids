@@ -178,6 +178,10 @@ self.__precacheManifest = [
     "revision": "020909d56f4dbc9d107757ce3253e49a"
   },
   {
+    "url": "img/payment-request.png",
+    "revision": "6bc4392ebd900364085acf2be0b260a7"
+  },
+  {
     "url": "img/phone-app-list.jpg",
     "revision": "780b87096ab66da3f11dba93443effc5"
   },
@@ -250,6 +254,10 @@ self.__precacheManifest = [
     "revision": "ceafc6d8c7831e0b3c059b3dac332151"
   },
   {
+    "url": "img/user-retention.png",
+    "revision": "f7955e0492d7e16b3315d9c23bf3aa84"
+  },
+  {
     "url": "img/whatwebcandotoday.png",
     "revision": "0ff3608305b2227fed15830f71c989a0"
   },
@@ -267,7 +275,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "258c7366cf2497e1e30c62c5100e93b2"
+    "revision": "a6b8ae8e6017fb35f6bd8770b2406a6e"
   },
   {
     "url": "js/notification.js",
@@ -691,8 +699,10 @@ self.__precacheManifest = [
   },
   {
     "url": "workbox-config.js",
-    "revision": "d57e7dcb6033a33fa3e0c5770b03e0e3"
+    "revision": "58b630d662e58c2c20a0277c6077c24a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerRoute(/https:\/\/www.google-analytics.com\/analytics.js /, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
