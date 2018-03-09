@@ -139,7 +139,7 @@ self.__precacheManifest = [
   },
   {
     "url": "img/impact-calculator.png",
-    "revision": "cc034471446e8f00d895c05ce4f42cd4"
+    "revision": "3e47320ad1c4f10c4a891a3e9a6d032a"
   },
   {
     "url": "img/install-1.png",
@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "ecb0fafa08f2f89988b9127628ee0af9"
+    "revision": "5c1510f255c366d4a33e3db3b73c07eb"
   },
   {
     "url": "js/notification.js",
@@ -298,8 +298,12 @@ self.__precacheManifest = [
     "revision": "4e965831ba8d5b5d398dc0bb6ae29906"
   },
   {
+    "url": "localhost_2018-03-09_14-56-22.report.html",
+    "revision": "61cb6d2ff23af3ed84c4d8878152422b"
+  },
+  {
     "url": "manifest.json",
-    "revision": "cf77a517ba792ec748f13c32c458997f"
+    "revision": "93a5306edf3a21c48950725c396a0bfd"
   },
   {
     "url": "README.md",
@@ -718,5 +722,3 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/https:\/\/www.google-analytics.com\/analytics.js /, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
-
-self.addEventListener('fetch', () => {});
