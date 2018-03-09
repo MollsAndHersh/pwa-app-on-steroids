@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "93a5306edf3a21c48950725c396a0bfd"
+    "revision": "7dd4fc4f5337e20a430f5280419052b7"
   },
   {
     "url": "README.md",

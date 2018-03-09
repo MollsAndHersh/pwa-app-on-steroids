@@ -6,7 +6,8 @@
   "display": "fullscreen",
   "orientation": "landscape",
   "lang": "en-US",
-  "start_url": "/index.html?launcher=homescreen",
+  "start_url": "/pwa-app-on-steroids/index.html?launcher=homescreen",
+  "scope": "/pwa-app-on-steroids/",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
