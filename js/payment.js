@@ -6,14 +6,23 @@
  * @return {PaymentRequest} The PaymentRequest oject.
  */
 function initPaymentRequest() {
-  let networks = ['amex', 'diners', 'discover', 'jcb', 'mastercard', 'unionpay',
-      'visa', 'mir'];
-  let types = ['debit', 'credit', 'prepaid'];
+  let networks = ['amex', 'jcb', 'visa'];
+  
   let supportedInstruments = [{
-    supportedMethods: networks,
+    supportedMethods: 'basic-card',
+    data: {
+      supportedNetworks: networks, 
+      supportedTypes: ['debit', 'credit', 'prepaid']
+    }
   }, {
-    supportedMethods: ['basic-card'],
-    data: {supportedNetworks: networks, supportedTypes: types},
+    supportedMethods: 'https://apple.com/apple-pay',
+    data: {
+        version: 2,
+        supportedNetworks: networks,
+        countryCode: 'US',
+        merchantIdentifier: 'whatwebcando.today.sample',
+        merchantCapabilities: ['supportsDebit', 'supportsCredit', 'supports3DS']
+    }
   }];
 
   let details = {

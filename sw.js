@@ -30,10 +30,6 @@ self.__precacheManifest = [
     "revision": "0831cba6a670e405168b84aa20798347"
   },
   {
-    "url": "css/github.css",
-    "revision": "c026a94dab146076149d9ef29595aeee"
-  },
-  {
     "url": "css/theme.css",
     "revision": "399312dc06a74abd7d30ca6a64556ca1"
   },
@@ -174,6 +170,14 @@ self.__precacheManifest = [
     "revision": "3fe817cfb5029f26b36501e1cb8dc0a5"
   },
   {
+    "url": "img/manifest.png",
+    "revision": "af55c744de01625e004165a50f9d2e8f"
+  },
+  {
+    "url": "img/no-workbox.png",
+    "revision": "e78b70d54fd35cf26a4d33e392133d7f"
+  },
+  {
     "url": "img/ohmygod.gif",
     "revision": "020909d56f4dbc9d107757ce3253e49a"
   },
@@ -266,6 +270,14 @@ self.__precacheManifest = [
     "revision": "8cceeeb09f6f2146062af9dd5decd019"
   },
   {
+    "url": "img/workbox-1.png",
+    "revision": "dc1daa51e8e00bde9ee3348366b186b2"
+  },
+  {
+    "url": "img/workbox-2.png",
+    "revision": "82f3c003f6cecf69ac918c8e64602bdd"
+  },
+  {
     "url": "img/worldmap-connectivity.png",
     "revision": "487279dfab413e85dd731fcf87b9d28e"
   },
@@ -275,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a6b8ae8e6017fb35f6bd8770b2406a6e"
+    "revision": "ecb0fafa08f2f89988b9127628ee0af9"
   },
   {
     "url": "js/notification.js",
@@ -283,15 +295,15 @@ self.__precacheManifest = [
   },
   {
     "url": "js/payment.js",
-    "revision": "1389e1f93c0ccabe33f8cfb271e9746d"
+    "revision": "4e965831ba8d5b5d398dc0bb6ae29906"
   },
   {
     "url": "manifest.json",
-    "revision": "325fe876b88afd6466159139a027621d"
+    "revision": "cf77a517ba792ec748f13c32c458997f"
   },
   {
     "url": "README.md",
-    "revision": "fc6b5c3a54ec757abf6a95bc2699f35e"
+    "revision": "24aa594eefddf7fc1f5b776d3c5022f5"
   },
   {
     "url": "reveal.js/bower.json",
@@ -706,3 +718,5 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/https:\/\/www.google-analytics.com\/analytics.js /, workbox.strategies.staleWhileRevalidate({ plugins: [new workbox.cacheableResponse.Plugin({"statuses":[0,200]})] }), 'GET');
+
+self.addEventListener('fetch', () => {});

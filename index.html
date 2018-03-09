@@ -6,12 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#5B9BD5">
+
+<link rel="icon" type="image/png" sizes="60x60 72x72" href="img/icons/icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/icons/icon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icons/icon-192x192.png">
+
+<meta name="twitter:site" content="@maxpou">
+<meta name="twitter:title" content="Progressive web apps">
+
 <link rel="stylesheet" href="reveal.js/css/reveal.css">
-<link rel="stylesheet" rel=preload href="css/font-awesome.min.css">
-<link rel="stylesheet" rel=preload href="css/github.css">
 <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 <link rel="stylesheet" href="css/theme.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" >
+<link rel="stylesheet" href="css/font-awesome.min.css">
 
 <!-- Printing and PDF exports -->
 <script>
@@ -139,13 +146,13 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <p class="fragment"><i>1 page = 1 link</i></p>
   </section>
   <section>
-    <h2>#2 Responsive</h2>
-    <img data-src="./img/responsive.png" class="fragment" alt="content is like water">
-  </section>
-  <section>
-    <h2>#3 Safe 🔒</h2>
+    <h2>#2 Safe 🔒</h2>
     <h3 class="fragment"><a href="https://letsencrypt.org/">Let's Encrypt</a>: a <b>free</b>, <b>automated</b>, and <b>open</b> Certificate Authority</h3>
     <img data-src="./img/letsencrypt-sponsors.png" class="fragment" alt="letsencrypt sponsors">
+  </section>
+  <section>
+    <h2>#3 Responsive</h2>
+    <img data-src="./img/responsive.png" class="fragment" alt="content is like water">
   </section>
   <section>
     <h2>#4 App-like</h2>
@@ -185,16 +192,16 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <img data-src="./img/install-3.png" alt="install PWA" class="fragment separate" style="width: 23%">
       <img data-src="./img/phone-app-list.jpg" alt="install PWA" class="fragment separate" style="width: 23%">
     </div>
-  </section>
-  <section>
-
+    <p><i>Page must be visited by the user twice, over two separate days during the course of two weeks.</i></p>
   </section>
   <section>
     <h2>#8 Discoverable</h2>
   </section>
   <section>
-    <h2>Manifest.json</h2>
-    <pre class="fragment"><code data-trim>
+    <h2>Web App Manifest</h2>
+    <img data-src="./img/manifest.png" alt="manifest.json" style="width: 80%;">
+    <aside class="notes">
+      <code data-trim>
 {
   "name": "GitVub",
   "short_name": "GitVub",
@@ -211,7 +218,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
   "background_color": "#f5f5f5",
   "theme_color": "#424242"
 }
-    </code></pre>
+      </code>
+    </aside>
   </section>
   <section>
     <h2>👨‍🔬 PWA in Windows Store!</h2>
@@ -246,37 +254,47 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <h2>Offline strategies</h2>
     <h3>Cache first</h3>
     <img data-src="./img/strategy-cache-falling-back-to-network.png" alt="cache falling back to network" style="width: 72%;">
+    <p class="source"> <a href="https://jakearchibald.com/2014/offline-cookbook/">The offline cookbook - Jake Archibald</a></p>
   </section>
   <section>
     <h2>Offline strategies</h2>
     <h3>Network first</h3>
     <img data-src="./img/strategy-network-falling-back-to-cache.png" alt="network falling back to cache" style="width: 72%;">
+    <p class="source"> <a href="https://jakearchibald.com/2014/offline-cookbook/">The offline cookbook - Jake Archibald</a></p>
   </section>
   <section>
     <h2>Offline strategies</h2>
     <h3>cache then network</h3>
     <img data-src="./img/strategy-cache-then-network.png" alt="cache then network" style="width: 80%;">
+    <p class="source"> <a href="https://jakearchibald.com/2014/offline-cookbook/">The offline cookbook - Jake Archibald</a></p>
   </section>
   <section>
     <h2>Offline strategies</h2>
     <h3>stale while revalidate</h3>
     <img data-src="./img/strategy-stale-while-revalidate.png" alt="stale while revalidate" style="width: 82%;">
+    <p class="source"> <a href="https://jakearchibald.com/2014/offline-cookbook/">The offline cookbook - Jake Archibald</a></p>
   </section>
   <section>
-    <h2>Code example: Cache first</h2>
-    <pre class="fragment"><code data-trim>
+    <h2>Example: Cache first</h2>
+    <img data-src="./img/no-workbox.png" alt="code without workbox">
+    <aside class="notes">
+        <code data-trim>
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     fetch(event.request).catch(function() {
-      return caches.match(event.request);
+      return caches.match(event.request)
     })
-  );
-});
-    </code></pre>
+  )
+})
+      </code>
+    </aside>
   </section>
   <section>
     <h2>Workbox</h2>
-    <pre class="fragment"><code data-trim>
+    <img data-src="./img/workbox-1.png" alt="example with Workbox" class="fragment" style="width: 50%">
+    <img data-src="./img/workbox-2.png" alt="example with Workbox" class="fragment" style="width: 50%">
+    <aside class="notes">
+      <code>
 workbox.routing.registerRoute(
   /\.(?:png|gif|jpg|jpeg|svg)$/,
   workbox.strategies.cacheFirst({
@@ -289,13 +307,12 @@ workbox.routing.registerRoute(
     ]
   })
 )
-    </code></pre>
-    <pre class="fragment"><code data-trim>
 workbox.routing.registerRoute(
   new RegExp('https://api.github.com.*'),
   workbox.strategies.networkFirst()
 )
-    </code></pre>
+      </code>
+    </aside>
   </section>
   <section>
     <h2 class="fragment strike" data-fragment-index="1">#11 Single Page Application</h2>
@@ -310,12 +327,17 @@ workbox.routing.registerRoute(
 </section>
 <section>
   <section>
-    <h2>Go... no go?</h2>
-  </section>
-  <section>
-    <h2>👍 PWA is just a set of good practices</h2>
-    <h3>Don't need to update your CV 😎</h3>
-    <p>You probably already follow some of this rules</p>
+    <h2>Let's Summarize</h2>
+    <blockquote class="fragment">
+      <i>"Just websites that took all the right vitamins"</i>
+      <br>
+      - Alex Russell
+    </blockquote>
+    <div class="row spaced fragment">
+      <div class="col-md">✅ Reliable</div>
+      <div class="col-md">🏃‍♀️ Fast</div>
+      <div class="col-md">🎯 Engaging</div>
+    </div>
   </section>
   <section>
     <h2>👍 Lighthouse</h2>
@@ -336,8 +358,8 @@ workbox.routing.registerRoute(
   <section>
     <h2>😞 Cons: what web can't do (now)</h2>
     <ul>
-      <li>calendar</li>
-      <li>sms</li>
+      <li>Calendar, SMS, alarm</li>
+      <li>NFC, bluetooth</li>
       <li>monetise (no option to buy like store)</li>
       <li>user feedback (stars/comments app)</li>
       <li>...</li>
@@ -464,11 +486,24 @@ workbox.routing.registerRoute(
   </section>
   <section>
     <h2>Thank you.</h2>
+    <p class="me-link">
+      <a href="https://twitter.com/_maxpou"><i class="fa fa-twitter"></i> @_maxpou</a> -
+      <a href="http://www.maxpou.fr/"><i class="fa fa-globe"></i> maxpou.fr</a> -
+      <a href="mailto:hello@maxpou.fr"><i class="fa fa-envelope-o"></i> hello@maxpou.fr</a>
+    </p>
   </section>
 </section>
 <section>
   <section>
     <h2>Back up slides</h2>
+  </section>
+  <section>
+    <h2>Services workers not ready?</h2>
+    <img data-src="./img/caniuse-service-workers.png" alt="can I use service workers? Yes.">
+  </section>
+  <section>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Google?ref_src=twsrc%5Etfw">@google</a>, <a href="https://twitter.com/mozilla?ref_src=twsrc%5Etfw">@mozilla</a>, <a href="https://twitter.com/Microsoft?ref_src=twsrc%5Etfw">@Microsoft</a> , <a href="https://twitter.com/Samsung?ref_src=twsrc%5Etfw">@samsung</a> and <a href="https://twitter.com/opera?ref_src=twsrc%5Etfw">@opera</a> on stage for <a href="https://twitter.com/hashtag/pwadevsummit?src=hash&amp;ref_src=twsrc%5Etfw">#pwadevsummit</a> Q&amp;A session ! <a href="https://t.co/3V4krKnEsq">pic.twitter.com/3V4krKnEsq</a></p>&mdash; Nicolas Inchauspé (@nicoinch) <a href="https://twitter.com/nicoinch/status/745216197004754944?ref_src=twsrc%5Etfw">June 21, 2016</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </section>
   <section>
     <h2>⚠️ Service Workers + subdomains = 💔</h2>
@@ -480,10 +515,6 @@ workbox.routing.registerRoute(
     </ul>
     <p>All this domain will register a different Service Worker</p>
     <p><a href="https://www.chromestatus.com/feature/5684130679357440">👩‍🔬 <i>Foreign Fetch Status (Chrome Platform)</i></a></p>
-  </section>
-  <section>
-    <h2>Services workers not ready?</h2>
-    <img data-src="./img/caniuse-service-workers.png" alt="can I use service workers">
   </section>
   <section>
     <h2><a href="http://manifoldjs.com/generator">Tool: PWA Builder</a></h2>
@@ -540,7 +571,7 @@ Reveal.initialize({
 // register sw
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('sw.js', {scope: '/pwa-app-on-steroids/'})
   })
 }
 </script>
