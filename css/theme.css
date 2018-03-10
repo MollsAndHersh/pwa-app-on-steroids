@@ -135,6 +135,15 @@ p.source {
   word-wrap: normal;
 }
 
+h2 > .emoji {
+  width: 0.8em;
+}
+
+p > .emoji,
+p > a > .emoji {
+  width: 0.8em;
+}
+
 /* SVG */
 .present.anim-chart .circle-chart.anim-svg .circle-chart__circle {
   animation: circle-chart-fill 2s reverse;

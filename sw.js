@@ -8,12 +8,10 @@
  * The rest of the code is auto-generated. Please don't update this file
  * directly; instead, make changes to your Workbox build configuration
  * and re-run your build process.
- * See https://goo.gl/YYPcyY
+ * See https://goo.gl/2aRDsh
  */
 
-importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.0/workbox-sw.js"
-);
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.1/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -31,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "399312dc06a74abd7d30ca6a64556ca1"
+    "revision": "5278bd05a2e6cedf3de6bbc7070655d6"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -86,16 +84,76 @@ self.__precacheManifest = [
     "revision": "1069c7c111872dcb20cb87038173ab51"
   },
   {
+    "url": "img/emojis/broken-heart.png",
+    "revision": "2e1833d7f86e7082b9fbcb71597f9ff3"
+  },
+  {
+    "url": "img/emojis/check.png",
+    "revision": "274d2bab614dfc2be3f848244d3a428e"
+  },
+  {
+    "url": "img/emojis/disappointed.png",
+    "revision": "86b45d45a0ccf6cc0096635182789780"
+  },
+  {
+    "url": "img/emojis/haha.png",
+    "revision": "49b443e5a212005aaa097163986c4383"
+  },
+  {
+    "url": "img/emojis/high-voltage.png",
+    "revision": "02048ab3cf9e435c1c195bb996027bee"
+  },
+  {
+    "url": "img/emojis/lift.png",
+    "revision": "002da36389f9be1048c024d7d5c1e05f"
+  },
+  {
+    "url": "img/emojis/lock.png",
+    "revision": "771d11961c9f844325494016c23e14f6"
+  },
+  {
+    "url": "img/emojis/running.png",
+    "revision": "768643384e10630f7f1f0f42dd062800"
+  },
+  {
+    "url": "img/emojis/sad.png",
+    "revision": "4fd8017a82899ff4a4bdb6abd95554c2"
+  },
+  {
+    "url": "img/emojis/scientist.png",
+    "revision": "2c76f9151ec9050b314e0bf50eb8a5ee"
+  },
+  {
+    "url": "img/emojis/target.png",
+    "revision": "96d279d7dd5ed89357325817480ebf47"
+  },
+  {
+    "url": "img/emojis/think-face.png",
+    "revision": "b38646f7343687c9b1dbff0033949b73"
+  },
+  {
+    "url": "img/emojis/thumbs-up.png",
+    "revision": "68fc8b6139cb0cc575faaacaa07d01bf"
+  },
+  {
+    "url": "img/emojis/warning.png",
+    "revision": "98d861d3d600bf0ae46b70ae33ba2f5a"
+  },
+  {
+    "url": "img/emojis/wave.png",
+    "revision": "2b98b058f37e31c6c5292e5b09f6d91c"
+  },
+  {
+    "url": "img/emojis/wave2.png",
+    "revision": "673495583a03239aa54a6936573bc7b5"
+  },
+  {
     "url": "img/facebook-mobile-stats.png",
     "revision": "3ef25ac99339e09e2d931c2c45c55217"
   },
   {
     "url": "img/forbes.png",
     "revision": "3c13f473580498716b6933a48f3c6287"
-  },
-  {
-    "url": "img/geo-restriction.png",
-    "revision": "8ca319824aec211bf202d7817578ac84"
   },
   {
     "url": "img/hamster-preach.jpg",
@@ -246,12 +304,8 @@ self.__precacheManifest = [
     "revision": "e0d327730d97d50da5ae4775c0ccf553"
   },
   {
-    "url": "img/twitter-lite-pwa.png",
+    "url": "img/tw-lite-pwa.png",
     "revision": "f8ba37e225838bf628bb7a7b456e2e8c"
-  },
-  {
-    "url": "img/twitter.svg",
-    "revision": "424e91a635d0c8c5c4ca14a1c96bfc19"
   },
   {
     "url": "img/update-app.jpg",
@@ -287,7 +341,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5c1510f255c366d4a33e3db3b73c07eb"
+    "revision": "18ab80becced83d9d2bf265f49902787"
   },
   {
     "url": "js/notification.js",
