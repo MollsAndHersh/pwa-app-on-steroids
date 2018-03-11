@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "5278bd05a2e6cedf3de6bbc7070655d6"
+    "revision": "8fcf7ab384fcfde90a90822a6f9e1a74"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -66,6 +66,10 @@ self.__precacheManifest = [
   {
     "url": "img/app-shell.png",
     "revision": "cb397d2940101497563b9369bcb502a6"
+  },
+  {
+    "url": "img/baby-car.gif",
+    "revision": "0cbfe7a0703272e2ed93f0c5df4a0bbe"
   },
   {
     "url": "img/caniuse-service-workers.png",
@@ -341,7 +345,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "18ab80becced83d9d2bf265f49902787"
+    "revision": "39bc6e4073338e839e6cc36b12aa6b19"
   },
   {
     "url": "js/notification.js",

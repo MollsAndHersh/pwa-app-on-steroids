@@ -144,6 +144,22 @@ p > a > .emoji {
   width: 0.8em;
 }
 
+button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #e03997;
+  color: #fff;
+  border: none;
+
+  cursor: pointer;
+  vertical-align: baseline;
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em .78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+}
+
 /* SVG */
 .present.anim-chart .circle-chart.anim-svg .circle-chart__circle {
   animation: circle-chart-fill 2s reverse;
