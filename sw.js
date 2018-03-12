@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "8fcf7ab384fcfde90a90822a6f9e1a74"
+    "revision": "03bf8ef8a7986aa26b3b710d85e4735b"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "revision": "673495583a03239aa54a6936573bc7b5"
   },
   {
-    "url": "img/facebook-mobile-stats.png",
+    "url": "img/fb-mobile-stats.png",
     "revision": "3ef25ac99339e09e2d931c2c45c55217"
   },
   {
@@ -345,7 +345,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "39bc6e4073338e839e6cc36b12aa6b19"
+    "revision": "227ccd196632c9e64102d4e1dc3d658c"
   },
   {
     "url": "js/notification.js",

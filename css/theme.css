@@ -149,7 +149,6 @@ button {
   background-color: #e03997;
   color: #fff;
   border: none;
-
   cursor: pointer;
   vertical-align: baseline;
   margin: 0 .25em 0 0;
@@ -158,6 +157,19 @@ button {
   text-shadow: none;
   font-weight: 700;
   line-height: 1em;
+}
+
+div.greyed-out {
+  background: grey;
+  padding: 2em;
+  opacity: 0.85 !important;
+}
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
 }
 
 /* SVG */
