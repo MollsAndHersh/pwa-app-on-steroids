@@ -22,4 +22,4 @@ $ git clone https://github.com/maxpou-slides/pwa-app-on-steroids --recursive
 
 ## Workbox
 
-Before commit, `workbox generateSW workbox-config.js`.
+Before commit, run `workbox generateSW workbox-config.js`.
