@@ -102,6 +102,11 @@ p.source {
   color: #f2b862;
 }
 
+.text-info-bold {
+  font-weight: bold !important;
+  color: #f2b862;
+}
+
 .row.spaced {
   margin-top: 10%;
 }

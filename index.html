@@ -51,7 +51,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 </section>
 <section>
   <section>
-    <h2>Native apps are doomed</h2>
+    <h2>Native apps are <span class="fragment text-info-bold" data-fragment-index="1">"</span>doomed<span class="fragment text-info-bold" data-fragment-index="1">"</span></h2>
   </section>
   <section>
     <div class="row">
@@ -135,7 +135,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
 </section>
 <section>
   <section>
-    <h2>Introducing Progressive Web Apps</h2>
+    <h2>Introducing<br>Progressive Web Apps</h2>
     <img data-src="./img/hamster-preach.jpg" alt="Introducing PWA" style="width: 60%;">
   </section>
   <section>
@@ -169,7 +169,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
   <section>
     <h2>Not every browsers are the same</h2>
     <img data-src="./img/whatwebcandotoday.png" alt="what web can do today" style="width: 80%">
-    <p class="source"><a href="https://whatwebcando.today/">http://whatwebcando.today (Firefox 58)</a></p>
+    <p class="source"><a href="https://whatwebcando.today/">https://whatwebcando.today (Firefox 58)</a></p>
   </section>
   <section>
     <h2>#6 Fresh</h2>
@@ -189,7 +189,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <img data-src="./img/install-3.png" alt="install PWA" class="fragment separate" style="width: 23%">
       <img data-src="./img/phone-app-list.jpg" alt="install PWA" class="fragment separate" style="width: 23%">
     </div>
-    <p class="fragment"><i>Page must be visited by the user twice, over two separate days during the course of two weeks.</i></p>
+    <p class="fragment"><i>Chrome create APK / Web APK (Android)</i></p>
   </section>
   <section>
     <h2>#8 Discoverable</h2>
@@ -226,6 +226,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
   <section>
     <h2><a onclick="notifyMe(); return false;">#9 Re-engageable</a></h2>
     <img data-src="./img/push-notifications.gif" alt="push notifications" style="width: 47%;">
+    <p class="fragment">Only when needed.</p>
   </section>
   <section>
     <h2>#10 Connectivity independent</h2>
@@ -337,9 +338,10 @@ workbox.routing.registerRoute(
       - Alex Russell
     </blockquote>
     <div class="row spaced">
-      <div class="col fragment"><img data-src="./img/emojis/check.png" class="emoji"><br>Reliable</div>
-      <div class="col fragment"><img data-src="./img/emojis/running.png" class="emoji"><br>Fast</div>
-      <div class="col fragment"><img data-src="./img/emojis/target.png" class="emoji"><br>Engaging</div>
+      <div class="col fragment"><img data-src="./img/emojis/running.png" class="emoji"><br><span class="text-info-bold">F</span>ast</div>
+      <div class="col fragment"><img data-src="./img/emojis/map.png" height="72" width="72" class="emoji"><br><span class="text-info-bold">I</span>ntegrated</div>
+      <div class="col fragment"><img data-src="./img/emojis/check.png" class="emoji"><br><span class="text-info-bold">R</span>eliable</div>
+      <div class="col fragment"><img data-src="./img/emojis/target.png" class="emoji"><br><span class="text-info-bold">E</span>ngaging</div>
     </div>
   </section>
   <section>
@@ -367,6 +369,11 @@ workbox.routing.registerRoute(
       <li>user feedback (stars/comments app)</li>
       <li>...</li>
     </ul>
+  </section>
+  <section>
+    <h2><img data-src="./img/emojis/ski.png" class="emoji"> "I need performance"</h2>
+    do you really need it?
+    <p>https://page-transitions.com/ by @sarah_edo</p>
   </section>
   <section>
     <h2><img data-src="./img/emojis/think-face.png" class="emoji"> Web payment API (Draft)</h2>
@@ -404,7 +411,7 @@ workbox.routing.registerRoute(
         <h2>Forbes</h2>
         <ul class="unstyled">
           <li><span class="number text-info">+43%</span> sessions per user</li>
-          <li><span class="number text-info">+20%</span> Ad viewability</li>
+          <li><span class="number text-info">+20%</span> ad viewability</li>
           <li><span class="number text-info">x3</span> scroll depth</li>
           <li><span class="number text-info">+100%</span> engagement</li>
         </ul>️
@@ -510,13 +517,13 @@ workbox.routing.registerRoute(
   </section>
   <section>
     <h2><img data-src="./img/emojis/warning.png" class="emoji"> Service Workers + subdomains = <img data-src="./img/emojis/broken-heart.png" class="emoji"></h2>
-    <p>Warning if you have:</p>
     <ul>
+      <p>3 subdomains = 3 Service Workers</p>
       <li>www.website.com</li>
       <li>secure.website.com</li>
       <li>french.website.com</li>
     </ul>
-    <p>All this domain will register a different Service Worker</p>
+    <br>
     <p><a href="https://www.chromestatus.com/feature/5684130679357440"><img data-src="./img/emojis/scientist.png" class="emoji"> <i>Foreign Fetch Status (Chrome Platform)</i></a></p>
   </section>
   <section>

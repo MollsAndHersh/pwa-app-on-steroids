@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "03bf8ef8a7986aa26b3b710d85e4735b"
+    "revision": "1a5311c7328be8533ac17885d4d8719e"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -116,6 +116,10 @@ self.__precacheManifest = [
     "revision": "771d11961c9f844325494016c23e14f6"
   },
   {
+    "url": "img/emojis/map.png",
+    "revision": "16d981ea8d5a472c94b533757e856f5d"
+  },
+  {
     "url": "img/emojis/running.png",
     "revision": "768643384e10630f7f1f0f42dd062800"
   },
@@ -126,6 +130,10 @@ self.__precacheManifest = [
   {
     "url": "img/emojis/scientist.png",
     "revision": "2c76f9151ec9050b314e0bf50eb8a5ee"
+  },
+  {
+    "url": "img/emojis/ski.png",
+    "revision": "a07a7a7da587a491281f207dc19f4284"
   },
   {
     "url": "img/emojis/target.png",
@@ -345,7 +353,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "227ccd196632c9e64102d4e1dc3d658c"
+    "revision": "a244181ccb4080507d9c56749caeaa48"
   },
   {
     "url": "js/notification.js",
@@ -365,7 +373,7 @@ self.__precacheManifest = [
   },
   {
     "url": "README.md",
-    "revision": "24aa594eefddf7fc1f5b776d3c5022f5"
+    "revision": "9effbe4577eec20fe050fd3bba605b40"
   },
   {
     "url": "reveal.js/bower.json",
