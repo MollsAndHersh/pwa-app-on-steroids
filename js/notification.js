@@ -4,14 +4,14 @@ function notifyMe () {
     return false
   } 
   if (Notification.permission === "granted") {
-    new Notification("PWA", {body: "Great! Now let's conquer the world"})
+    new Notification("PWA", {body: "Woaw my browser can do that?"})
   } else if (Notification.permission !== 'denied') {
     Notification.requestPermission((permission) => {
       if(!('permission' in Notification)) {
         Notification.permission = permission;
       }
       if (permission === "granted") {
-        new Notification("PWA", {body: "Great! Now let's conquer the world"})
+        new Notification("PWA", {body: "Woaw my browser can do that?"})
       }
     })
   }
