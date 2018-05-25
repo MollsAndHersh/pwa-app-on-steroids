@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -70,6 +70,26 @@ self.__precacheManifest = [
   {
     "url": "img/baby-car.gif",
     "revision": "0cbfe7a0703272e2ed93f0c5df4a0bbe"
+  },
+  {
+    "url": "img/brands/googlemaps.png",
+    "revision": "c41f4a73645216dc9c2de048e07e0ff2"
+  },
+  {
+    "url": "img/brands/instagram.png",
+    "revision": "c643a2775d2dd68532795b1b918c6557"
+  },
+  {
+    "url": "img/brands/starbucks.png",
+    "revision": "43e47e244e9240afbde49ff14f5dc8a6"
+  },
+  {
+    "url": "img/brands/tinder.png",
+    "revision": "f6b8a9fa72aec8684392dfe3f3077d53"
+  },
+  {
+    "url": "img/brands/twitter.png",
+    "revision": "35288ec118f5d4317a7c88e4b5808d9f"
   },
   {
     "url": "img/caniuse-service-workers.png",
@@ -353,11 +373,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a244181ccb4080507d9c56749caeaa48"
+    "revision": "4e1f138e4f97a88fa20cca0204027069"
   },
   {
     "url": "js/notification.js",
-    "revision": "569857faada97f138e834f8bf36d4d0e"
+    "revision": "dfdd0587b373b6bbb4908f0b478c7c86"
   },
   {
     "url": "js/payment.js",
