@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.0-beta.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/theme.css",
-    "revision": "03bf8ef8a7986aa26b3b710d85e4735b"
+    "revision": "1a5311c7328be8533ac17885d4d8719e"
   },
   {
     "url": "fonts/fontawesome-webfont.eot",
@@ -70,6 +70,30 @@ self.__precacheManifest = [
   {
     "url": "img/baby-car.gif",
     "revision": "0cbfe7a0703272e2ed93f0c5df4a0bbe"
+  },
+  {
+    "url": "img/brands/flipkart.png",
+    "revision": "e204a66b5da6fe6dfb71debafc9955e6"
+  },
+  {
+    "url": "img/brands/googlemaps.png",
+    "revision": "c41f4a73645216dc9c2de048e07e0ff2"
+  },
+  {
+    "url": "img/brands/instagram.png",
+    "revision": "c643a2775d2dd68532795b1b918c6557"
+  },
+  {
+    "url": "img/brands/starbucks.png",
+    "revision": "43e47e244e9240afbde49ff14f5dc8a6"
+  },
+  {
+    "url": "img/brands/tinder.png",
+    "revision": "f6b8a9fa72aec8684392dfe3f3077d53"
+  },
+  {
+    "url": "img/brands/twitter.png",
+    "revision": "35288ec118f5d4317a7c88e4b5808d9f"
   },
   {
     "url": "img/caniuse-service-workers.png",
@@ -116,6 +140,10 @@ self.__precacheManifest = [
     "revision": "771d11961c9f844325494016c23e14f6"
   },
   {
+    "url": "img/emojis/map.png",
+    "revision": "16d981ea8d5a472c94b533757e856f5d"
+  },
+  {
     "url": "img/emojis/running.png",
     "revision": "768643384e10630f7f1f0f42dd062800"
   },
@@ -126,6 +154,10 @@ self.__precacheManifest = [
   {
     "url": "img/emojis/scientist.png",
     "revision": "2c76f9151ec9050b314e0bf50eb8a5ee"
+  },
+  {
+    "url": "img/emojis/ski.png",
+    "revision": "a07a7a7da587a491281f207dc19f4284"
   },
   {
     "url": "img/emojis/target.png",
@@ -345,11 +377,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "227ccd196632c9e64102d4e1dc3d658c"
+    "revision": "3a5e9360a76d11ec528216cb6e39888e"
   },
   {
     "url": "js/notification.js",
-    "revision": "569857faada97f138e834f8bf36d4d0e"
+    "revision": "dfdd0587b373b6bbb4908f0b478c7c86"
   },
   {
     "url": "js/payment.js",
@@ -365,7 +397,7 @@ self.__precacheManifest = [
   },
   {
     "url": "README.md",
-    "revision": "24aa594eefddf7fc1f5b776d3c5022f5"
+    "revision": "9effbe4577eec20fe050fd3bba605b40"
   },
   {
     "url": "reveal.js/bower.json",
