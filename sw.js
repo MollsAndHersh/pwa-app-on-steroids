@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "revision": "0cbfe7a0703272e2ed93f0c5df4a0bbe"
   },
   {
+    "url": "img/brands/flipkart.png",
+    "revision": "e204a66b5da6fe6dfb71debafc9955e6"
+  },
+  {
     "url": "img/brands/googlemaps.png",
     "revision": "c41f4a73645216dc9c2de048e07e0ff2"
   },
@@ -373,7 +377,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4e1f138e4f97a88fa20cca0204027069"
+    "revision": "3a5e9360a76d11ec528216cb6e39888e"
   },
   {
     "url": "js/notification.js",
