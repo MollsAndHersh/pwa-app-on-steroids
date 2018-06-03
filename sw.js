@@ -352,6 +352,10 @@ self.__precacheManifest = [
     "revision": "f7955e0492d7e16b3315d9c23bf3aa84"
   },
   {
+    "url": "img/webshareapi.png",
+    "revision": "8e64a8d5db230ea02eae04c1697b2a10"
+  },
+  {
     "url": "img/whatwebcandotoday.png",
     "revision": "0ff3608305b2227fed15830f71c989a0"
   },
@@ -377,7 +381,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3a5e9360a76d11ec528216cb6e39888e"
+    "revision": "af9d21a5f85b609f9e6e85bace3e6d2e"
+  },
+  {
+    "url": "js/add2homescreen.js",
+    "revision": "9cb7a03e4ab2707f81cbb756029d8e04"
   },
   {
     "url": "js/notification.js",
@@ -386,6 +394,10 @@ self.__precacheManifest = [
   {
     "url": "js/payment.js",
     "revision": "4e965831ba8d5b5d398dc0bb6ae29906"
+  },
+  {
+    "url": "js/share.js",
+    "revision": "ac026dd7227962e78bbbbf600074a8e4"
   },
   {
     "url": "localhost_2018-03-09_14-56-22.report.html",
@@ -397,7 +409,7 @@ self.__precacheManifest = [
   },
   {
     "url": "README.md",
-    "revision": "9effbe4577eec20fe050fd3bba605b40"
+    "revision": "81c2a4b24dcba568fa7eeeb782a09ee7"
   },
   {
     "url": "reveal.js/bower.json",
@@ -802,6 +814,10 @@ self.__precacheManifest = [
   {
     "url": "reveal.js/test/test.js",
     "revision": "f311c8540bb1687f2c293d76be9d2538"
+  },
+  {
+    "url": "slides.maxpou.fr_2018-06-01_17-42-26.report.html",
+    "revision": "2466310e9690a644d666fb56ab55e8c0"
   },
   {
     "url": "workbox-config.js",

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Progressive web apps</title>
+<meta name="Description" content="Progressive Web App talk's slides">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#5B9BD5">
@@ -46,10 +47,12 @@ document.getElementsByTagName('head')[0].appendChild(link);
   </section>
   <section>
     <h2>Slides, links, etc.</h2>
-    <h2><a href="http://www.maxpou.fr/talks/">maxpou.fr/talks/</a></h2>
+    <h2><a href="https://www.maxpou.fr/talks/">maxpou.fr/talks/</a></h2>
   </section>
 </section>
 <section>
+  <section data-background="https://cdn.cultofmac.com/wp-content/uploads/2010/10/TheresAnAppForThatHeader.jpg">
+  </section>
   <section>
     <h2>Native apps are <span class="fragment text-info-bold" data-fragment-index="1">"</span>doomed<span class="fragment text-info-bold" data-fragment-index="1">"</span></h2>
   </section>
@@ -169,8 +172,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <h2><img data-src="./img/emojis/ski.png" class="emoji"> "I need performance"</h2>
     <p class="fragment" data-fragment-index="1">Checkout:</p>
     <ul class="fragment" data-fragment-index="1">
-      <li><a target="_blank" href="https://page-transitions.com">page-transitions.com</a> by (@sarah_edo)</li>
-      <li>wasm</li>
+      <li><a target="_blank" rel="noopener" href="https://page-transitions.com">page-transitions.com</a> by (@sarah_edo)</li>
+      <li>WebAssembly (Wasm)</li>
     </ul>
   </section>
   <section>
@@ -209,6 +212,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
       <img data-src="./img/phone-app-list.jpg" alt="install PWA" class="fragment separate" style="width: 23%">
     </div>
     <p class="fragment"><i>Chrome create APK / Web APK (Android)</i></p>
+    <button id="installButton" class="fragment">install me</button>
   </section>
   <section>
     <h2>#8 Discoverable</h2>
@@ -245,7 +249,7 @@ document.getElementsByTagName('head')[0].appendChild(link);
   <section>
     <h2><img data-src="./img/emojis/thumbs-up.png" class="emoji"> Lighthouse</h2>
     <img data-src="./img/lighthouse.png" alt="lighthouse logo" style="background: none; box-shadow: none;">
-    <a href="./github-lighthouse-report.html">Report example</a>
+    <a href="./slides.maxpou.fr_2018-06-01_17-42-26.report.html">Report example</a>
   </section>
   <section>
     <h2><a onclick="notifyMe(); return false;">#9 Re-engageable</a></h2>
@@ -257,6 +261,12 @@ document.getElementsByTagName('head')[0].appendChild(link);
     <img data-src="./img/payment-request.png" style="width: 70%;" alt="Web payment API">
     <p><a href="https://www.w3.org/TR/payment-request/">Payment Request API (W3C)</a></p>
     <button id="buyButton">Buy the last iPhone X for 10€!</button>
+  </section>
+  <section>
+    <h2><img data-src="./img/emojis/think-face.png" class="emoji"> Web Share API (Draft)</h2>
+    <img data-src="./img/webshareapi.png" style="width: 30%;" alt="Web payment API">
+    <br>
+    <button id="shareButton">Share this slides!</button>
   </section>
   <section>
     <h2>#10 Connectivity independent</h2>
@@ -326,8 +336,8 @@ self.addEventListener('fetch', function(event) {
   </section>
   <section>
     <h2>Workbox</h2>
-    <img data-src="./img/workbox-1.png" alt="example with Workbox" class="fragment" style="width: 70%">
     <img data-src="./img/workbox-2.png" alt="example with Workbox" class="fragment" style="width: 70%">
+    <img data-src="./img/workbox-1.png" alt="example with Workbox" class="fragment" style="width: 70%">
     <aside class="notes">
       <code>
 workbox.routing.registerRoute(
@@ -463,12 +473,12 @@ workbox.routing.registerRoute(
   </section>
   <section>
     <h2>Try it out!</h2>
-    <img src="./img/brands/flipkart.png" alt="flipkart">
-    <img src="./img/brands/googlemaps.png" alt="google maps">
-    <img src="./img/brands/instagram.png" alt="instagram">
-    <img src="./img/brands/starbucks.png" alt="starbucks">
-    <img src="./img/brands/tinder.png" alt="tinder">
-    <img src="./img/brands/twitter.png" alt="twitter">
+    <img data-src="./img/brands/flipkart.png" alt="flipkart">
+    <img data-src="./img/brands/googlemaps.png" alt="google maps">
+    <img data-src="./img/brands/instagram.png" alt="instagram">
+    <img data-src="./img/brands/starbucks.png" alt="starbucks">
+    <img data-src="./img/brands/tinder.png" alt="tinder">
+    <img data-src="./img/brands/twitter.png" alt="twitter">
   </section>
 </section>
 <section>
@@ -549,6 +559,8 @@ workbox.routing.registerRoute(
 <script src="reveal.js/js/reveal.js"></script>
 <script src="js/payment.js" async></script>
 <script src="js/notification.js" async></script>
+<script src="js/add2homescreen.js" async></script>
+<script src="js/share.js" async></script>
 <script>
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration

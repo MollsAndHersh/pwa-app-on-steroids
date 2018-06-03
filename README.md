@@ -11,6 +11,7 @@ The debate between web and native is not ready to stop!
 
 ## :calendar: Events
 
+* [Devoxx Poland, June 2018, Krakow, Poland](https://cfp.devoxx.pl/2018/speaker/maxence_poutord)
 * [Voxxed Days, Feb 2018, Vienna, Austria](https://voxxeddaysvienna2018.sched.com/)
 
 ## Slides installation
