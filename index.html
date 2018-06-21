@@ -37,21 +37,23 @@ document.getElementsByTagName('head')[0].appendChild(link);
 </div>
 <div class="slides container">
 <section>
-  <section>
+  <section data-background="./img/firstSlide.png">
+  </section>
+  <!-- <section>
     <h2>Progressive Web Apps</h2>
     <h3><i>Your web app on steroids</i></h3>
     <p class="me-link">
       Maxence Poutord - <a href="https://twitter.com/_maxpou"><i class="fa fa-twitter"></i> @_maxpou</a>
     </p>
     <p>Devoxx Poland, Krakow, June 2018</p>
-  </section>
+  </section> -->
   <section>
     <h2>Slides, links, etc.</h2>
     <h2><a href="https://www.maxpou.fr/talks/">maxpou.fr/talks/</a></h2>
   </section>
 </section>
 <section>
-  <section data-background="https://cdn.cultofmac.com/wp-content/uploads/2010/10/TheresAnAppForThatHeader.jpg">
+  <section data-background="./img/theresAnAppForThat.jpg">
   </section>
   <section>
     <h2>Native apps are <span class="fragment text-info-bold" data-fragment-index="1">"</span>doomed<span class="fragment text-info-bold" data-fragment-index="1">"</span></h2>
@@ -167,14 +169,6 @@ document.getElementsByTagName('head')[0].appendChild(link);
     </ul>
     <p class="space-top fragment"><img data-src="./img/emojis/warning.png" class="emoji"> <span class="text-info">53%</b> of users bounce if sites load > 3s</p>
     <p class="source"><a href="https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/">source: doubleclickbygoogle.com</a></p>
-  </section>
-  <section>
-    <h2><img data-src="./img/emojis/ski.png" class="emoji"> "I need performance"</h2>
-    <p class="fragment" data-fragment-index="1">Checkout:</p>
-    <ul class="fragment" data-fragment-index="1">
-      <li><a target="_blank" rel="noopener" href="https://page-transitions.com">page-transitions.com</a> by (@sarah_edo)</li>
-      <li>WebAssembly (Wasm)</li>
-    </ul>
   </section>
   <section>
     <h2>Application shell architecture</h2>
@@ -551,6 +545,16 @@ workbox.routing.registerRoute(
   <section>
     <h2>Native development still relevant</h2>
     <img data-src="./img/fb-mobile-stats.png" alt="facebook mobile stats" style="width: 60%">
+  </section>
+  <section>
+    <h2><img data-src="./img/emojis/ski.png" class="emoji"> "I need performance"</h2>
+    <p class="fragment" data-fragment-index="1">Checkout:</p>
+    <ul class="fragment" data-fragment-index="1">
+      <li>Performance as a feature</li>
+      <li>Do you really need to track you customers that much?</li>
+      <li><a target="_blank" rel="noopener" href="https://page-transitions.com">page-transitions.com</a> by (@sarah_edo)</li>
+      <li>WebAssembly (Wasm)</li>
+    </ul>
   </section>
 </section>
 </div>
