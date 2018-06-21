@@ -188,8 +188,16 @@ self.__precacheManifest = [
     "revision": "3ef25ac99339e09e2d931c2c45c55217"
   },
   {
+    "url": "img/firstSlide.png",
+    "revision": "f4acf2d5ff3cc94490a69853b2667119"
+  },
+  {
     "url": "img/forbes.png",
     "revision": "3c13f473580498716b6933a48f3c6287"
+  },
+  {
+    "url": "img/gdpr.jpg",
+    "revision": "43d1a177f8dc423e934ba61920e6dd58"
   },
   {
     "url": "img/hamster-preach.jpg",
@@ -340,6 +348,10 @@ self.__precacheManifest = [
     "revision": "e0d327730d97d50da5ae4775c0ccf553"
   },
   {
+    "url": "img/theresAnAppForThat.jpg",
+    "revision": "ae98ee2d65d80bff1f8bb02261e6c37d"
+  },
+  {
     "url": "img/tw-lite-pwa.png",
     "revision": "f8ba37e225838bf628bb7a7b456e2e8c"
   },
@@ -381,7 +393,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "af9d21a5f85b609f9e6e85bace3e6d2e"
+    "revision": "c7a5144dbe3c946a3fefd9a92fda0655"
   },
   {
     "url": "js/add2homescreen.js",
@@ -409,7 +421,7 @@ self.__precacheManifest = [
   },
   {
     "url": "README.md",
-    "revision": "81c2a4b24dcba568fa7eeeb782a09ee7"
+    "revision": "e8630200122e8b46614dba9cf9f91dff"
   },
   {
     "url": "reveal.js/bower.json",
