@@ -11,6 +11,7 @@ The debate between web and native is not ready to stop!
 
 ## :calendar: Events
 
+* [DublinJS, September 2018, Dublin, Ireland](https://www.meetup.com/DublinJS/events/fbllfpyxmbgb/)
 * [Devoxx Poland, June 2018, Krakow, Poland](https://cfp.devoxx.pl/2018/speaker/maxence_poutord)
 * [Voxxed Days, Feb 2018, Vienna, Austria](https://voxxeddaysvienna2018.sched.com/)
 

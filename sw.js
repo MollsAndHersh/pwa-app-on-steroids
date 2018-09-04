@@ -11,7 +11,7 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -188,16 +188,8 @@ self.__precacheManifest = [
     "revision": "3ef25ac99339e09e2d931c2c45c55217"
   },
   {
-    "url": "img/firstSlide.png",
-    "revision": "f4acf2d5ff3cc94490a69853b2667119"
-  },
-  {
     "url": "img/forbes.png",
     "revision": "3c13f473580498716b6933a48f3c6287"
-  },
-  {
-    "url": "img/gdpr.jpg",
-    "revision": "43d1a177f8dc423e934ba61920e6dd58"
   },
   {
     "url": "img/hamster-preach.jpg",
@@ -393,7 +385,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c7a5144dbe3c946a3fefd9a92fda0655"
+    "revision": "1c5a5b109463c233261a7cefccc97042"
   },
   {
     "url": "js/add2homescreen.js",
@@ -421,7 +413,7 @@ self.__precacheManifest = [
   },
   {
     "url": "README.md",
-    "revision": "e8630200122e8b46614dba9cf9f91dff"
+    "revision": "37df22cb74eacc62cc928e37f22e109b"
   },
   {
     "url": "reveal.js/bower.json",
